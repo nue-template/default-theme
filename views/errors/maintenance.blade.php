@@ -1,0 +1,1 @@
+{{ settings()->group('cms')->get('maintenance_note') }}

@@ -1,0 +1,21 @@
+{
+    "name": "nue-template/default-theme",
+    "description": "Default template for NueCMS.",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NueTemplate\\Default\\": "/"
+        }
+    },
+    "require": {
+        "novay/cms": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NueTemplate\\Default\\ThemeServiceProvider"
+            ]
+        }
+    }
+}
